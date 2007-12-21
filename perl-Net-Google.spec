@@ -16,6 +16,7 @@ BuildRequires:	perl-devel
 %endif
 BuildRequires:  perl(Module::Build)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Provides a simple OOP-ish interface to the Google SOAP API
