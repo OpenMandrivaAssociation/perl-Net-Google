@@ -10,7 +10,7 @@ Summary:	Simple OOP-ish interface to the Google SOAP API
 License:	GPL or Artistic
 Group:		Development/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Net/%{module}-%{version}.tar.bz2
-URL:		http://search.cpan.org/dist/%{module}
+URL:		https://search.cpan.org/dist/%{module}
 %if %{mdkversion} < 1010
 BuildRequires:	perl-devel
 %endif
